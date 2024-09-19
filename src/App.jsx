@@ -7,8 +7,8 @@ import Test from "./components/test";
 // import Home from "./components/home";
 function Root() {
   return (
-    <div className="ml-[15px]">
-      <div className="col-12 md:pl-[80px] pl-[10px] flex flex-col w-[100%] overflow-hidden ">
+    <div>
+      <div className="col-12 md:pl-[80px] flex flex-col w-[100%] overflow-hidden ">
         <Header />
         <div className="flex flex-col">
           <Sidebar />

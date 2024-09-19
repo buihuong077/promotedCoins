@@ -1,7 +1,7 @@
 import ItemTable from "./ItemTable";
 const Home = () => {
   return (
-    <div className="w-full flex justify-center flex-col items-center  h-full bg-[var(--primary-color)] text-[var(--text-color)]">
+    <div className=" w-fit ml-[15px] md:ml-0 md:w-full flex justify-center flex-col items-center  h-full bg-[var(--primary-color)] text-[var(--text-color)]">
       <div className="py-4 flex justify-start">Promoted Coins</div>
       <div>
         <table className="bg-[var(--primary-color)] text-[var(--text-color)] min-w-[1000px]">
