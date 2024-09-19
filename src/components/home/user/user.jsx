@@ -110,7 +110,7 @@ const UserItem = () => {
 
         <div className="mt-[40px]">
           <img
-            className="w-[100vw] md:w-[1000px] h-[600px]"
+            className="w-[100vw] lg:w-[1000px] h-[600px]"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVQUj5WS_d7640hRq4lV3TTp1ogEIf6K5_rg&s"
             alt=""
           />

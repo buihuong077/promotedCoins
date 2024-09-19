@@ -18,7 +18,7 @@ const Sidebar = () => {
     <div className="row">
       <div
         style={{ width: hoverwidth ? "250px" : "80px" }} // Thay đổi chiều rộng bằng giá trị width từ state
-        className="col-12 hidden md:flex  h-[100vh] bg-[#262b3c] border-[1px] border-[var(--button-color)] text-[var(--text-color)] fixed top-0 left-0  flex-col hover:items-start items-center z-[100] p-4 shadow-lg transition-all duration-300 ease-in-out" // Thêm transition cho mượt
+        className="col-12 hidden lg:flex  h-[100vh] bg-[#262b3c] border-[1px] border-[var(--button-color)] text-[var(--text-color)] fixed top-0 left-0  flex-col hover:items-start items-center z-[100] p-4 shadow-lg transition-all duration-300 ease-in-out" // Thêm transition cho mượt
         onMouseEnter={handleMourseEnter}
         onMouseLeave={handleMourseLeave}
       >
@@ -72,13 +72,15 @@ const Sidebar = () => {
           </div>
         </div>
         <hr className="text-[var(--text-color)] h-2 w-full" />
-        <div className="w-full pt-3 flex flex-col justify-start items-center">
+
+        <div className={`w-full flex flex-col gap-2 mb-3  ${hoverwidth ? "" : "items-center"}`}>
           <div className="flex gap-2 items-center border-none px-2.5 py-1.5 rounded-lg hover:bg-[var(--button-color)]">
             <span>
               <i className="fa-brands fa-x-twitter text-2xl"></i>
             </span>
             {hoverwidth ? <span>Follow us on X</span> : null}
           </div>
+
           <div className="flex gap-2 items-center border-none px-2.5 py-1.5 rounded-lg hover:bg-[var(--button-color)]">
             <span>
               <i className="fa-brands fa-telegram text-2xl"></i>
