@@ -1,6 +1,6 @@
 const UserItem = () => {
   return (
-    <div className=" bg-[var(--primary-color)] text-[var(--text-color)] flex justify-center row justify-items-center w-[1376px] mx-auto mt-8">
+    <div className="w-[-webkit-fill-available] md:w-[1376px]  bg-[var(--primary-color)] text-[var(--text-color)] flex justify-center row justify-items-center mx-auto mt-8">
       <div class="col-12 col-lg-8 flex  flex-col">
         <div className="col-12 col-lg-12 flex flex-wrap items-center ">
           <div className="col-12 col-md-6 flex gap-2 items-center">
@@ -110,7 +110,7 @@ const UserItem = () => {
 
         <div className="mt-[40px]">
           <img
-            className="w-[1000px] h-[600px]"
+            className="w-[100vw] md:w-[1000px] h-[600px]"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVQUj5WS_d7640hRq4lV3TTp1ogEIf6K5_rg&s"
             alt=""
           />
@@ -187,7 +187,7 @@ const UserItem = () => {
       </div>
       {/*  */}
       <div className="col-12 col-lg-4 col-span-1 ml-[13px] mr-[10px] md:ml-0 md:mr-0 ">
-        <div className="flex flex-col  gap-2.5 rounded-xl border border-gray-200 p-3 dark:border-dark-925">
+        <div className="w-[-webkit-fill-available] md:w-full flex flex-col  gap-2.5 rounded-xl border border-gray-200 p-3 dark:border-dark-925">
           <div className="grid w-full  grid-cols-2">
             <div className="flex flex-col items-center">
               <div className="text-2xl font-bold tracking-tighter dark:text-white">978</div>
@@ -211,7 +211,7 @@ const UserItem = () => {
           </div>
         </div>
         <div className="col-span-1 flex flex-col gap-6 mt-10">
-          <div className="w-full space-y-2 rounded-xl border border-gray-200 p-3 dark:border-dark-925">
+          <div className="w-[-webkit-fill-available] md:w-full space-y-2 rounded-xl border border-gray-200 p-3 dark:border-dark-925">
             <div className="grid grid-cols-2 gap-2">
               <div className="flex flex-col items-center bg-[#242744] py-2 border-none rounded-md">
                 <span>$8.18 M</span>
@@ -270,7 +270,7 @@ const UserItem = () => {
             </div>
           </div>
         </div>
-        <div className="h-[500px] w-full rounded-xl border border-gray-200 p-3 dark:border-dark-925 mt-4">
+        <div className="h-[500px] w-[-webkit-fill-available] md:w-full rounded-xl border border-gray-200 p-3 dark:border-dark-925 mt-4">
           <div className="h-full overflow-y-scroll">
             <div>
               <div
